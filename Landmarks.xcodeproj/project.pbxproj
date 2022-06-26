@@ -17,6 +17,10 @@
 		B4467D762865908A00399D97 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D742865908A00399D97 /* CircleImage.swift */; };
 		B4467D782865912B00399D97 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D772865912B00399D97 /* MapView.swift */; };
 		B4467D792865912B00399D97 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D772865912B00399D97 /* MapView.swift */; };
+		B4467D7B2865A12600399D97 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D7A2865A12600399D97 /* Landmark.swift */; };
+		B4467D7C2865A12600399D97 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D7A2865A12600399D97 /* Landmark.swift */; };
+		B4467D7E2865A50300399D97 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D7D2865A50300399D97 /* Data.swift */; };
+		B4467D7F2865A50300399D97 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4467D7D2865A50300399D97 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,8 @@
 		B4467D6528658A3B00399D97 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		B4467D742865908A00399D97 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		B4467D772865912B00399D97 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B4467D7A2865A12600399D97 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B4467D7D2865A50300399D97 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 				B4467D742865908A00399D97 /* CircleImage.swift */,
 				B4467D772865912B00399D97 /* MapView.swift */,
 				B4467D5828658A3A00399D97 /* Assets.xcassets */,
+				B4467D7A2865A12600399D97 /* Landmark.swift */,
+				B4467D7D2865A50300399D97 /* Data.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -185,9 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4467D6828658A3B00399D97 /* ContentView.swift in Sources */,
+				B4467D7E2865A50300399D97 /* Data.swift in Sources */,
 				B4467D782865912B00399D97 /* MapView.swift in Sources */,
 				B4467D6628658A3B00399D97 /* LandmarksApp.swift in Sources */,
 				B4467D752865908A00399D97 /* CircleImage.swift in Sources */,
+				B4467D7B2865A12600399D97 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,9 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4467D6928658A3B00399D97 /* ContentView.swift in Sources */,
+				B4467D7F2865A50300399D97 /* Data.swift in Sources */,
 				B4467D792865912B00399D97 /* MapView.swift in Sources */,
 				B4467D6728658A3B00399D97 /* LandmarksApp.swift in Sources */,
 				B4467D762865908A00399D97 /* CircleImage.swift in Sources */,
+				B4467D7C2865A12600399D97 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,7 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
